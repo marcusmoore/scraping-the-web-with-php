@@ -9,7 +9,10 @@
       "email": "contact@marcusmoore.io"
     }
   ],
-  "require": {},
+  "require": {
+    "league/climate": "^3.2",
+    "spatie/crawler": "^3.2"
+  },
   "autoload": {
     "psr-4": {
       "App\\": "src"
