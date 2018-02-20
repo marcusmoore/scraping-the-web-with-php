@@ -11,5 +11,5 @@ $client = new Client();
 $crawler = $client->request('GET', 'https://github.com/explore');
 
 $crawler->filter('a')->each(function ($node) {
-    print_r($node->link()->getUri());
+    print_r($node->link()->getUri() . PHP_EOL);
 });
