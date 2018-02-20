@@ -2,6 +2,7 @@
 
 use App\Spatie\Observers\LogsStatus;
 use App\Spatie\Observers\SleepsForAMoment;
+use App\Spatie\Observers\WritesLinksToTextFile;
 use App\Spatie\Profiles\QueuesEventLinksForCrawling;
 use Spatie\Crawler\Crawler;
 
@@ -26,7 +27,7 @@ require_once __DIR__ . './../../vendor/autoload.php';
 //Crawler::create()
 //    ->setCrawlObservers([
 //        new LogsStatus(),
-//        new SleepsForAMoment(),
+//        new WritesLinksToTextFile(),
 //    ])
 //    ->setCrawlProfile(new QueuesEventLinksForCrawling())
 //    ->setMaximumDepth(1)
