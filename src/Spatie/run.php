@@ -19,7 +19,6 @@ require_once __DIR__ . './../../vendor/autoload.php';
 
 /*
  * Example of a crawler that:
- * - sleeps after crawling each url
  * - only crawls one layer deep
  * - only crawls one url at a time
  * - uses multiple observers
